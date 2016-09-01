@@ -1,0 +1,17 @@
+<h3>路径</h3>
+	<p>news: <a href="{:U('Post/index',array('name'=>'cnsecer'))}">{:U('Post/index',array('name'=>'cnsecer'))}</a> </p>
+	<p>competition: <a href="{:U('Post/view',array('id'=>1))}">{:U('Post/view',array('id'=>1))}</a> </p>
+
+	<p>feature: <a href="{:U('index/feature')}">{:U('Post/index',array('name'=>'cnsecer'))}</a> </p>
+	<p>hero: <a href="{:U('index/hero')}">{:U('Post/index',array('name'=>'cnsecer'))}</a> </p>
+
+
+	<p>main: <a href="{:U('Page/index',array('name'=>'cnsecer'))}">{:U('Page/index',array('name'=>'cnsecer'))}</a> </p>
+	<p>登录页游戏下载: <a href="{:U('login/login')}">{:U('login/login')}</a></p>
+	<p>登录页道具城: <a href="{:U('login/index')}">{:U('login/login')}</a></p>
+	<p>注册: <a href="{:U('login/register')}">{:U('login/login')}</a></p>
+	<p>QQ登录: <a href="{:U('login/login',array('type'=>'qq'))}">{:U('login/login',array('type'=>'qq'))}</a></p>
+	<hr>
+	<p>后台地址: <a href="admin.php">admin.php</a></p>
+	<p>账号:admin</p>
+	<p>密码:admin</p>
